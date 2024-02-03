@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+h1{
+    text-align: center;
+    color: -webkit-link;
+    line-height: 50px;
+}
+p{
+    text-align: center;
+}
+.inputs{
+    text-align:center;
+    margin: 20px;
+}
