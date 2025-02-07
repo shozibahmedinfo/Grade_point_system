@@ -3,6 +3,17 @@
     padding: 0;
     outline: 0;
 }
+.full_container{
+    width: 100%;
+}
+.container{
+    width:100%;
+    margin: 0 auto;
+}
+.inputs{
+    text-align:center;
+    margin: 20px;
+}
 h1{
     text-align: center;
     color: -webkit-link;
@@ -10,8 +21,4 @@ h1{
 }
 p{
     text-align: center;
-}
-.inputs{
-    text-align:center;
-    margin: 20px;
 }

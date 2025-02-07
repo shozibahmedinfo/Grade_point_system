@@ -5,23 +5,32 @@
         <meta charset="UTF-8">
         <meta name="author" content="Shozib Ahmed">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="images/x-icon" href="">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <h1>Hey, Programmers!</h1>
         <p>Basic INFO CRUD Operations for Demand Programming Languages</p>
-        <!-- This is a mars submit section -->
-        <section class="inputs">
-            <h3>Range of Marks (Percentage) Grade Point</h3>
-            <p>GPA ( Out of 5 )</p>
-            <input type="text" placeholder="Enter your mark" id="marks" required>
-            <button type="submit" onclick="showResult()">Submit</button>
+        <!----------This is a mars submit section---------->
+        <section class="full_container">
+            <div class="container">
+                <div class="inputs">
+                    <h3>Range of Marks (Percentage) Grade Point</h3>
+                    <p>GPA ( Out of 5 )</p>
+                    <input type="text" placeholder="Enter your mark" id="marks" required>
+                    <button type="submit" onclick="showResult()">Submit</button>
+                </div>
+            </div>
         </section>
-        <!-- This is a Main section-->
-        <section class="output">
-            <p id="red"></p>
+        <!----------This is a Output section---------->
+        <section class="full_container">
+            <div class="container">
+                <div class="output">
+                    <p id="red"></p>
+                </div>
+            </div>
         </section>
-        <!-- This is a JavaScript -->
+        <!----------This is a JavaScript file---------->
         <script src="javasceipt.js"></script>
     </body>
 </html>
